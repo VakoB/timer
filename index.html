@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="timer.css">
+    <script src="https://kit.fontawesome.com/9b49e62b6c.js" crossorigin="anonymous"></script>
+    <title>Timer</title>
+</head>
+<body>
+    <div class="circular">
+        <div class="timer">
+            <input type="number" name="minutes" id="minutes" title="adjective" class="timerItems" placeholder="00" onblur="formatMinutesInput()"/>
+            <p id="dots" class="timerItems">:</p>
+            <input type="number" class="timerItems" type="numbers" name="seconds" id="seconds" title="adjective" placeholder="00" onblur="formatSecondsInput()"/>
+        </div>
+        <div class="btn-container">
+            <button id="restart" class="btn" type="button"  onclick="clickedRestartBtn()"><i class="fas fa-arrow-rotate-left"></i></button>
+            <button id="start" class="btn" type="button" onclick="clickedStartBtn()"><i class="fas fa-play"></i></button>
+        </div>
+    </div>
+    <audio hidden id="sound" src="475981__tubbsmedia__beep-beep.wav"></audio>
+
+    <script src="timer.js"></script>
+</body>
+</html>
