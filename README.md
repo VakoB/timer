@@ -27,7 +27,7 @@ This web application provides a user-friendly circular timer interface. Users ca
 1. Input the desired minutes and seconds.
 2. Click the start button to begin the countdown.
 3. To stop or pause the timer, click the stop button.
-4. Click the "RESTART" button to reset the timer.
+4. Click the restart button to reset the timer.
 
 ## Installation
 
