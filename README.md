@@ -40,7 +40,4 @@ This web application provides a user-friendly circular timer interface. Users ca
 2. Open `index.html` in your preferred web browser.
 
 
-## Contributing
-
-Feel free to contribute by opening issues or creating pull requests. Follow the [contribution guidelines](CONTRIBUTING.md).
 
