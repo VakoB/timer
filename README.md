@@ -8,9 +8,7 @@ A simple timer web application with the ability to play a sound when the timer f
 - [Features](#features)
 - [Usage](#usage)
 - [Installation](#installation)
-- [Demo](#demo)
-- [Contributing](#contributing)
-- [License](#license)
+- [Demo](https://vakob.github.io/timer/)
 
 ## Description
 
